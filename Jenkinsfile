@@ -1,15 +1,21 @@
 pipeline {
-    agent any  // Runs on any available Jenkins agent
+    agent any
 
     stages {
-        // Stage 1: Checkout code from GitHub
         stage('Checkout') {
             steps {
-                git 'https://github.com/vishwarajP/coex_automation_test.git'
+                checkout([
+                    $class: 'GitSCM',
+                    branches: [[name: '*/main']], // Change to '*/master' if needed
+                    extensions: [],
+                    userRemoteConfigs: [[
+                        credentialsId: 'github-token', // Create this in Jenkins Credentials
+                        url: 'https://github.com/vishwarajP/coex_automation_test.git'
+                    ]]
+                ])
             }
         }
 
-        // Stage 2: Setup Python & dependencies
         stage('Setup') {
             steps {
                 bat 'python -m venv venv'
@@ -17,7 +23,6 @@ pipeline {
             }
         }
 
-        // Stage 3: Run tests
         stage('Test') {
             steps {
                 bat 'venv\\Scripts\\pytest test/ --html=report.html'
@@ -34,10 +39,9 @@ pipeline {
         }
     }
 
-    // Clean up after build
     post {
         always {
-            cleanWs()  // Cleans workspace
+            cleanWs()
         }
     }
 }
