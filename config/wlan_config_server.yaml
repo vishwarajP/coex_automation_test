@@ -1,0 +1,4 @@
+client:
+  ip: "192.168.3.66"
+  user: "admin"
+  password: "admin@123"

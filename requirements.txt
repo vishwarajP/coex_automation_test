@@ -1,0 +1,4 @@
+paramiko~=3.5.1
+PyYAML~=6.0.2
+pytest~=8.4.0
+setuptools~=80.9.0
