@@ -5,32 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d84ccb58-290f-40a7-bf00-597ce0748353" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/coaex_automation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/BT_device_config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/wlan_config_client.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/wlan_config_server.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bt_main_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wlan_main_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/bt_conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_a2dp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_bt_off_on.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_bt_pair_device.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_performance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_security.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_stability.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2yZwTNlaHvQdRgTf9eeZrTQRrU8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,25 +34,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_performance.test_iper3_throughput.executor": "Run",
-    "Python tests.Python tests in test_bt_off_on.py.executor": "Run",
-    "Python tests.Python tests in test_performance.py.executor": "Run",
-    "Python tests.Python tests in test_security.py.executor": "Run",
-    "Python tests.Python tests in test_stability.py.executor": "Run",
-    "Python.bt_conftest.executor": "Run",
-    "Python.bt_main_module.executor": "Run",
-    "Python.conftest.executor": "Run",
-    "Python.connection.executor": "Run",
-    "Python.wlan_conftest.executor": "Run",
-    "Python.wlan_main_module.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_performance.test_iper3_throughput.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_bt_off_on.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_performance.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_security.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_stability.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bt_conftest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bt_main_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.connection.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wlan_conftest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wlan_main_module.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Python.main">
     <configuration name="bt_conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coaex_automation" />
       <option name="ENV_FILES" value="" />
