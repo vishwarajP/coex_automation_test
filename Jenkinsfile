@@ -6,10 +6,9 @@ pipeline {
             steps {
                 checkout([
                     $class: 'GitSCM',
-                    branches: [[name: '*/main']], // Change to '*/master' if needed
-                    extensions: [],
+                    branches: [[name: '*/main']],
                     userRemoteConfigs: [[
-                        credentialsId: 'github-token', // Create this in Jenkins Credentials
+                        credentialsId: 'github-token',
                         url: 'https://github.com/vishwarajP/coex_automation_test.git'
                     ]]
                 ])
@@ -19,7 +18,8 @@ pipeline {
         stage('Setup') {
             steps {
                 bat 'python -m venv venv'
-                bat 'venv\\Scripts\\pip install pytest pytest-html'
+                bat 'venv\\Scripts\\pip install -r requirements.txt'  // If you have one
+                bat 'venv\\Scripts\\pip install pytest pytest-html paramiko'
             }
         }
 
@@ -32,7 +32,7 @@ pipeline {
                     publishHTML(target: [
                         reportDir: '.',
                         reportFiles: 'report.html',
-                        reportName: 'Test Results'
+                        reportName: 'Test Report'
                     ])
                 }
             }
