@@ -19,16 +19,20 @@ pipeline {
             steps {
                 bat """
                     python -m venv venv
-                    venv\\Scripts\\pip install --upgrade pip
-                    venv\\Scripts\\pip install paramiko==3.5.1 PyYAML==6.0.2 pytest==8.4.0 setuptools==80.9.0
-                    venv\\Scripts\\pip install pytest-html  # Additional test reporting
+                    call venv\\Scripts\\activate
+                    python -m pip install --upgrade pip
+                    pip install paramiko==3.5.1 PyYAML==6.0.2 pytest==8.4.0 setuptools==80.9.0
+                    pip install pytest-html
                 """
             }
         }
 
         stage('Run Tests') {
             steps {
-                bat 'venv\\Scripts\\pytest test/ --html=report.html'
+                bat """
+                    call venv\\Scripts\\activate
+                    pytest test/ --html=report.html
+                """
             }
             post {
                 always {
