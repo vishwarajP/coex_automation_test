@@ -1,0 +1,89 @@
+2025-06-18 15:19:59,681 - INFO - Logging is now set up.
+2025-06-18 15:19:59,741 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:19:59,831 - INFO - Authentication (password) successful!
+2025-06-18 15:20:06,194 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:20:06,295 - INFO - Authentication (password) successful!
+2025-06-18 15:20:06,527 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:20:06,626 - INFO - Authentication (password) successful!
+2025-06-18 15:20:06,834 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:20:06,931 - INFO - Authentication (password) successful!
+2025-06-18 15:20:07,133 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:20:07,222 - INFO - Authentication (password) successful!
+2025-06-18 15:20:12,354 - DEBUG - Raw iperf3 output:
+('Connecting to host 192.168.3.63, port 5203\nReverse mode, remote host 192.168.3.63 is sending\n[  5] local 192.168.3.63 port 41134 connected to 192.168.3.63 port 5203\n[ ID] Interval           Transfer     Bitrate\n[  5]   0.00-1.00   sec  1.63 GBytes  14.0 Gbits/sec                  \n[  5]   1.00-2.00   sec   810 MBytes  6.80 Gbits/sec                  \n[  5]   2.00-3.00   sec   808 MBytes  6.78 Gbits/sec                  \n[  5]   3.00-4.00   sec   813 MBytes  6.82 Gbits/sec                  \n[  5]   4.00-5.00   sec   807 MBytes  6.77 Gbits/sec                  \n- - - - - - - - - - - - - - - - - - - - - - - - -\n[ ID] Interval           Transfer     Bitrate         Retr\n[  5]   0.00-5.00   sec  4.80 GBytes  8.23 Gbits/sec    0             sender\n[  5]   0.00-5.00   sec  4.79 GBytes  8.23 Gbits/sec                  receiver\n\niperf Done.\n', '')
+2025-06-18 15:20:24,041 - INFO - Logging is now set up.
+2025-06-18 15:20:25,100 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:20:25,227 - INFO - Authentication (password) successful!
+2025-06-18 15:20:25,468 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:20:25,582 - INFO - Authentication (password) successful!
+2025-06-18 15:20:27,756 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:20:27,882 - INFO - Authentication (password) successful!
+2025-06-18 15:20:28,064 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:20:28,189 - INFO - Authentication (password) successful!
+2025-06-18 15:20:30,455 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:20:30,586 - INFO - Authentication (password) successful!
+2025-06-18 15:20:32,833 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:20:32,952 - INFO - Authentication (password) successful!
+2025-06-18 15:20:33,115 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:20:33,241 - INFO - Authentication (password) successful!
+2025-06-18 15:20:35,427 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:20:35,555 - INFO - Authentication (password) successful!
+2025-06-18 15:23:26,068 - INFO - Logging is now set up.
+2025-06-18 15:23:26,167 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:23:26,290 - INFO - Authentication (password) successful!
+2025-06-18 15:23:32,578 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:23:32,675 - INFO - Authentication (password) successful!
+2025-06-18 15:23:32,860 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:23:32,957 - INFO - Authentication (password) successful!
+2025-06-18 15:23:33,207 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:23:33,306 - INFO - Authentication (password) successful!
+2025-06-18 15:23:33,544 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:23:33,635 - INFO - Authentication (password) successful!
+2025-06-18 15:23:38,765 - DEBUG - Raw iperf3 output:
+('Connecting to host 192.168.3.63, port 5203\nReverse mode, remote host 192.168.3.63 is sending\n[  5] local 192.168.3.63 port 42988 connected to 192.168.3.63 port 5203\n[ ID] Interval           Transfer     Bitrate\n[  5]   0.00-1.00   sec   799 MBytes  6.70 Gbits/sec                  \n[  5]   1.00-2.00   sec   814 MBytes  6.83 Gbits/sec                  \n[  5]   2.00-3.00   sec   814 MBytes  6.83 Gbits/sec                  \n[  5]   3.00-4.00   sec   817 MBytes  6.85 Gbits/sec                  \n[  5]   4.00-5.00   sec   816 MBytes  6.85 Gbits/sec                  \n- - - - - - - - - - - - - - - - - - - - - - - - -\n[ ID] Interval           Transfer     Bitrate         Retr\n[  5]   0.00-5.00   sec  3.97 GBytes  6.82 Gbits/sec    0             sender\n[  5]   0.00-5.00   sec  3.97 GBytes  6.81 Gbits/sec                  receiver\n\niperf Done.\n', '')
+2025-06-18 15:23:40,092 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:23:40,217 - INFO - Authentication (password) successful!
+2025-06-18 15:23:40,455 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:23:40,581 - INFO - Authentication (password) successful!
+2025-06-18 15:23:42,782 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:23:42,897 - INFO - Authentication (password) successful!
+2025-06-18 15:23:43,089 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:23:43,221 - INFO - Authentication (password) successful!
+2025-06-18 15:23:45,468 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:23:45,630 - INFO - Authentication (password) successful!
+2025-06-18 15:23:47,881 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:23:48,004 - INFO - Authentication (password) successful!
+2025-06-18 15:23:48,177 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:23:48,308 - INFO - Authentication (password) successful!
+2025-06-18 15:23:50,489 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:23:50,613 - INFO - Authentication (password) successful!
+2025-06-18 15:26:11,698 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:26:11,824 - INFO - Authentication (password) successful!
+2025-06-18 15:28:32,843 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:28:32,963 - INFO - Authentication (password) successful!
+2025-06-18 15:28:33,254 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:28:33,397 - INFO - Authentication (password) successful!
+2025-06-18 15:28:33,606 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:28:33,734 - INFO - Authentication (password) successful!
+2025-06-18 15:28:33,909 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:28:34,032 - INFO - Authentication (password) successful!
+2025-06-18 15:28:34,302 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:28:34,426 - INFO - Authentication (password) successful!
+2025-06-18 15:28:34,664 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:28:34,786 - INFO - Authentication (password) successful!
+2025-06-18 15:28:34,981 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:28:35,104 - INFO - Authentication (password) successful!
+2025-06-18 15:28:35,329 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:28:35,445 - INFO - Authentication (password) successful!
+2025-06-18 15:28:40,563 - DEBUG - Raw iperf3 output:
+('Connecting to host 192.168.3.63, port 5203\nReverse mode, remote host 192.168.3.63 is sending\n[  5] local 192.168.3.63 port 33906 connected to 192.168.3.63 port 5203\n[ ID] Interval           Transfer     Bitrate\n[  5]   0.00-1.00   sec   814 MBytes  6.82 Gbits/sec                  \n[  5]   1.00-2.00   sec   818 MBytes  6.86 Gbits/sec                  \n[  5]   2.00-3.00   sec   815 MBytes  6.83 Gbits/sec                  \n[  5]   3.00-4.00   sec   816 MBytes  6.84 Gbits/sec                  \n[  5]   4.00-5.00   sec   813 MBytes  6.82 Gbits/sec                  \n- - - - - - - - - - - - - - - - - - - - - - - - -\n[ ID] Interval           Transfer     Bitrate         Retr\n[  5]   0.00-5.00   sec  3.99 GBytes  6.85 Gbits/sec    0             sender\n[  5]   0.00-5.00   sec  3.98 GBytes  6.84 Gbits/sec                  receiver\n\niperf Done.\n', '')
+2025-06-18 15:28:40,615 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:28:40,710 - INFO - Authentication (password) successful!
+2025-06-18 15:28:47,007 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:28:47,115 - INFO - Authentication (password) successful!
+2025-06-18 15:28:47,310 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:28:47,402 - INFO - Authentication (password) successful!
+2025-06-18 15:28:47,691 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:28:47,795 - INFO - Authentication (password) successful!
+2025-06-18 15:28:48,030 - INFO - Connected (version 2.0, client OpenSSH_9.2p1)
+2025-06-18 15:28:48,123 - INFO - Authentication (password) successful!
