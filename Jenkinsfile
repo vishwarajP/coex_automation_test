@@ -37,11 +37,11 @@ pipeline {
             post {
                 always {
                     archiveArtifacts artifacts: 'report.html', fingerprint: true
-                    publishHTML(target: [
-                        reportDir: '.',
-                        reportFiles: 'report.html',
-                        reportName: 'Test Report'
-                    ])
+//                     publishHTML(target: [
+//                         reportDir: '.',
+//                         reportFiles: 'report.html',
+//                         reportName: 'Test Report'
+//                     ])
                 }
             }
         }
